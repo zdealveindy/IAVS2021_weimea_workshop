@@ -13,16 +13,14 @@ Relating community-level functional traits to the environment is one of the fund
 
 ## Program of the workshop (starts at 14:00 CEST)
 ### A. Theoretical part (50 minutes)
-
 1. Introduction of the problem of Type I error rate inflation in the CWM approach
 2. Solution - max permutation test, how it works
 3. Is the test always inflated? It depends on which question are you asking and what are your assumptions.
 4. Q&A part
 
 ### B. Practical part (50 minutes)
-
 1. Overview of <tt>weimea</tt> library, main features
-2. Running two simple examples to show how main functions work (using Vltava dataset, CWM approach and projecting EIVs onto ordination diagram)
+2. Running two simple examples to show how main functions work (using [Vltava dataset](https://anadat-r.davidzeleny.net/doku.php/en:data:vltava), namely CWM approach and projecting EIVs onto ordination diagram. Download the file with examples [WM_workshop_IAVS2021_examples.R](https://github.com/zdealveindy/IAVS2021_weimea_workshop/blob/main/CWM_workshop_IAVS2021_examples.R).
 3. Q&A part
 
 ## Before we start
