@@ -3,8 +3,10 @@
 *This website contains materials related to the workshop organized during the 63rd Annual Symposium of the International Association for Vegetation Science*
 
 
-**Lecturer:** [David Zelený](https://www.davidzeleny.net) (National Taiwan University)   
+**Lecturer:** [David Zelený](https://www.davidzeleny.net) (National Taiwan University, email: zeleny@ntu.edu.tw, Twitter: [@zdealveindy](https://twitter.com/zdealveindy))   
 **Technical Assistant:** Po-Yu Lin (National Taiwan University)
+
+
 
 ## Description
 Relating community-level functional traits to the environment is one of the fundamental tasks in functional ecology. One way to do so is to calculate community weighted means (CWM) of species traits, weighted by species abundances, and relate them to environmental variables. However, traditional parametric tests inflate Type I errors. In this workshop, participants will learn how to use the recently developed R package weimea, which contains tools suitable for running the permutation tests that overcome this problem within the CWM approach.
