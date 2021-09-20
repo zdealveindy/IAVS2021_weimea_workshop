@@ -2,18 +2,15 @@
 
 *This website contains materials related to the workshop organized during the 63rd Annual Symposium of the International Association for Vegetation Science*
 
-
 **Lecturer:** [David Zelený](https://www.davidzeleny.net) (National Taiwan University, email: zeleny@ntu.edu.tw, Twitter: [@zdealveindy](https://twitter.com/zdealveindy))   
 **Technical Assistant:** Po-Yu Lin (National Taiwan University)
-
-
 
 ## Description
 Relating community-level functional traits to the environment is one of the fundamental tasks in functional ecology. One way to do so is to calculate community weighted means (CWM) of species traits, weighted by species abundances, and relate them to environmental variables. However, traditional parametric tests inflate Type I errors. In this workshop, participants will learn how to use the recently developed R package weimea, which contains tools suitable for running the permutation tests that overcome this problem within the CWM approach.
 
 ## Program of the workshop (starts at 14:00 CEST)
 ### A. Theoretical part (50 minutes)
-1. Introduction of the problem of Type I error rate inflation in the CWM approach
+1. Introduction of the problem of Type I error rate inflation in the CWM approach (download the presentation [here](https://github.com/zdealveindy/IAVS2021_weimea_workshop/raw/main/CWM_workshop_IAVS2021_slides.pdf))
 2. Solution - max permutation test, how it works
 3. Is the test always inflated? It depends on which question are you asking and what are your assumptions.
 4. Q&A part
