@@ -26,7 +26,6 @@ anova (LM_rand)
 
 P_rand <- replicate (100, expr = {
   CWM_SLA_rand <- cwm (com = com, traits = sample (SLA))
-  plot (CWM_SLA_rand$traits ~ cover)
   LM_rand <- lm (CWM_SLA_rand$traits ~ cover)
   anova (LM_rand)$`Pr(>F)`[1]
 })
