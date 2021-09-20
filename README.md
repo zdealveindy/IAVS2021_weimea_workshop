@@ -60,3 +60,8 @@ Make also sure to install packages <tt>vegan</tt> and <tt>RcppArmadillo</tt> in 
 
 ### Linux ###
 Download the Linux binary [here](https://anadat-r.davidzeleny.net/lib/exe/fetch.php/en:data:linux:weimea_0.1.18_r_x86_64-pc-linux-gnu.tar.gz) and install on your computer (thanks a lot to Cheng-Tao Lin from National Chiyai University, Taiwan, for help with compiling it!)
+
+## Suggested reading
+* Peres-Neto, P. R., S. Dray, and C. J. F. ter Braak. 2017. Linking trait variation to the environment: Critical issues with community-weighted mean correlation resolved by the fourth-corner approach. Ecography 40:806–816. https://doi.org/10.1111/ecog.02302 (free to read)
+* ter Braak, C. J. F, P. Peres-Neto, and S. Dray. 2018. Simple parametric tests for trait-environment association. Journal of Vegetation Science 29:801–811. https://doi.org/10.1111/jvs.12666 (open access) 
+* Zelený, D. 2018. Which results of the standard test for community weighted mean approach are too optimistic? Journal of Vegetation Science 29: 953–966. https://doi.org/10.1111/jvs.12688 (free to read)
