@@ -10,14 +10,14 @@
 Relating community-level functional traits to the environment is one of the fundamental tasks in functional ecology. One way to do so is to calculate community weighted means (CWM) of species traits, weighted by species abundances, and relate them to environmental variables. However, traditional parametric tests inflate Type I errors. In this workshop, participants will learn how to use the recently developed R package weimea, which contains tools suitable for running the permutation tests that overcome this problem within the CWM approach.
 
 ## Program of the workshop (starts at 14:00 CEST)
-### A. Theoretical part (50 minutes)###
+### A. Theoretical part (50 minutes)
 
 1. Introduction of the problem of Type I error rate inflation in the CWM approach
 2. Solution - max permutation test, how it works
 3. Is the test always inflated? It depends on which question are you asking and what are your assumptions.
 4. Q&A part
 
-### B. Practical part (50 minutes)###
+### B. Practical part (50 minutes)
 
 1. Overview of <tt>weimea</tt> library, main features
 2. Running two simple examples to show how main functions work (using Vltava dataset, CWM approach and projecting EIVs onto ordination diagram)
@@ -34,7 +34,7 @@ The package <tt>weimea</tt> (community __wei__ghted __mea__n approach, Zelený 2
 
 To install current stable release on your computer, see the installation instructions below (different for Windows, Mac OS and Linux).
 
-### Windows###
+### Windows
 Download the Windows binary [here](https://anadat-r.davidzeleny.net/lib/exe/fetch.php/en:data:weimea_0.1.18.zip) and install it (in RStudio go to Packages > Install > Install from: Package archive file (.zip; .tar.gz)). You can also use the following code directly:
 
 ```
@@ -50,7 +50,11 @@ devtools::install_github ('zdealveindy/weimea')
 ```
 
 ### MacOS ###
-Download the MacOS binary [here](https://anadat-r.davidzeleny.net/lib/exe/fetch.php/en:data:macos:weimea_0.1.18.tgz) and install it (thanks a lot to Cheng-Tao Lin from National Chiyai University, Taiwan, for help with compiling it!). You can follow [these instructions](http://www.ryantmoore.org/files/ht/htrtargz.pdf) to install the package from terminal. Make also sure to install packages <tt>vega</tt> and <tt>RcppArmadillo</tt> in your R. If you are getting weird messages, make sure you have the latest version of R (4.1.1) and RStudio (1.4.1717 or newer).
+Download the MacOS binary [here](https://anadat-r.davidzeleny.net/lib/exe/fetch.php/en:data:macos:weimea_0.1.18.tgz) and install it (thanks a lot to Cheng-Tao Lin from National Chiyai University, Taiwan, for help with compiling it!).
+
+To install the package, close R and RStudio and install the package through terminal (you can follow [these instructions](http://www.ryantmoore.org/files/ht/htrtargz.pdf) to install the package from terminal. Make sure that the access you type in the terminal code is the real access of the downloaded file, e.g. using ```{R CMD INSTALL Desktop/weimea_0.1.18.tgz}```). 
+
+Make also sure to install packages <tt>vegan</tt> and <tt>RcppArmadillo</tt> in your R. If you are getting weird messages, make sure you have the latest version of R (4.1.1) and RStudio (1.4.1717 or newer).
 
 ### Linux ###
 Download the Linux binary [here](https://anadat-r.davidzeleny.net/lib/exe/fetch.php/en:data:linux:weimea_0.1.18_r_x86_64-pc-linux-gnu.tar.gz) and install on your computer (thanks a lot to Cheng-Tao Lin from National Chiyai University, Taiwan, for help with compiling it!)
