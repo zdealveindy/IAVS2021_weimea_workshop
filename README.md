@@ -3,7 +3,7 @@
 *This website contains materials related to the workshop organized during the 63rd Annual Symposium of the International Association for Vegetation Science*
 
 
-**Lecturer:** [David Zelený](https://www.davidzeleny.net) (National Taiwan University)  
+**Lecturer:** [David Zelený](https://www.davidzeleny.net) (National Taiwan University)   
 **Technical Assistant:** Po-Yu Lin (National Taiwan University)
 
 ## Description
